@@ -55,8 +55,8 @@ echo "V2" >> /var/www/html/index.html
 exit
 docker commit 5267e21d140 denis_v2:latest
 
-Export/Import Docker Image
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+Export/Import Docker Image to file
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 docker save image:tag > arch_name.tar
 docker load -i arch_name.tar
 
