@@ -32,7 +32,7 @@ docker run -d -p 8888:80 nginx
 
 
 
-docker build -t denis .
+docker build -t denis:v1 .
 docker images
 
 docker run -it  -p 1234:80  denis:latest
