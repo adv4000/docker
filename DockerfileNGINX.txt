@@ -1,0 +1,10 @@
+#------------------------------------------------------
+# Dockefile to build Docker Image of NGINX WebServer
+#
+# Made by Denis Astahov. 23-October-2024
+#------------------------------------------------------
+FROM nginx:latest
+
+RUN echo 'Hello World from Docker!' > /usr/share/nginx/html/index.html
+
+EXPOSE 80
